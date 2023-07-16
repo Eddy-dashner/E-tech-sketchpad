@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-teck_sketchpad</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="header">
+        
+       
+    
+      <p id="prompt"></p>
+      <h1 class="animate-charcter">Etch-a-Sketch</h1>
+      
+          
+      <div class="canvas">
+        <div class="container">
+        </div>
+    </div>
+    <div id="buttons">
+      
+      <form id=button-container>
+        <input type="radio" id="black-pen" name="pen" value="black-pen"> <label for="black-pen">Black</label>
+        <input type="radio" id="red-pen" name="pen" value="red-pen"> <label for="red-pen">Red</label>
+        <input type="radio" id="blue-pen" name="pen" value="blue-pen"> <label for="blue-pen">Blue</label>
+        <input type="radio" id="rainbow" name="pen" value="rainbow"> <label for="Rainbow">Rainbow</label>
+        <input type="radio" id="eraser" name="pen" value="eraser"> <label for="eraser">Eraser</label>
+      </form>
+      <button id="clear-button">Clear</button>
+      </div>
+    <div id="form" class="form">
+        <p>New grid size:</p><input type="text" id="user-number" class="user-number">
+        <p id="copy-input"></p>
+        <button id='user-submit' class="user-submit">Submit</button>        
+      </div>
+    
+    
+</div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
